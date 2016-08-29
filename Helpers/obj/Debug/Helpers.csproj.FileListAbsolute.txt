@@ -1,0 +1,9 @@
+\\w00147pnas0\homefolder01$\chagasre\documents\visual studio 2012\Projects\MvcApp\Helpers\bin\Debug\Helpers.dll
+\\w00147pnas0\homefolder01$\chagasre\documents\visual studio 2012\Projects\MvcApp\Helpers\bin\Debug\Helpers.pdb
+\\w00147pnas0\homefolder01$\chagasre\documents\visual studio 2012\Projects\MvcApp\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+\\w00147pnas0\homefolder01$\chagasre\documents\visual studio 2012\Projects\MvcApp\Helpers\obj\Debug\Helpers.dll
+\\w00147pnas0\homefolder01$\chagasre\documents\visual studio 2012\Projects\MvcApp\Helpers\obj\Debug\Helpers.pdb
+C:\temp2\MvcApp\Helpers\bin\Debug\Helpers.dll
+C:\temp2\MvcApp\Helpers\bin\Debug\Helpers.pdb
+C:\temp2\MvcApp\Helpers\obj\Debug\Helpers.dll
+C:\temp2\MvcApp\Helpers\obj\Debug\Helpers.pdb

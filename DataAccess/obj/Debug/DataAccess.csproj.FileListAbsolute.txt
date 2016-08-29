@@ -1,0 +1,6 @@
+C:\temp2\MvcApp\DataAccess\bin\Debug\Database.sdf
+C:\temp2\MvcApp\DataAccess\bin\Debug\DataAccess.dll.config
+C:\temp2\MvcApp\DataAccess\bin\Debug\DataAccess.dll
+C:\temp2\MvcApp\DataAccess\bin\Debug\DataAccess.pdb
+C:\temp2\MvcApp\DataAccess\obj\Debug\DataAccess.dll
+C:\temp2\MvcApp\DataAccess\obj\Debug\DataAccess.pdb
