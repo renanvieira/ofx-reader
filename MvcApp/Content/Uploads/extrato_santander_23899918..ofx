@@ -1,0 +1,447 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20140319105300[-3:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>SANTANDER
+                <FID>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>BRL
+                <BANKACCTFROM>
+                    <BANKID>033
+                    <ACCTID>4360010011321
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20140319105300[-3:GMT]
+                    <DTEND>20140319105300[-3:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140219000000[-3:GMT]
+                        <TRNAMT>            -30.29
+                        <FITID>00151643
+                        <CHECKNUM>00151643
+                        <PAYEEID>0
+                        <MEMO>PGTO TITULO OUTRO BCO - INTERNET   AMERICANAS.COM - B2W - CI
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140220000000[-3:GMT]
+                        <TRNAMT>            -10.13
+                        <FITID>00363771
+                        <CHECKNUM>00363771
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        20/02         A SUA F    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140220000000[-3:GMT]
+                        <TRNAMT>           -450,00
+                        <FITID>00504679
+                        <CHECKNUM>00504679
+                        <PAYEEID>0
+                        <MEMO>SAQUE ATM INTERAGENCIA                                      
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140220000000[-3:GMT]
+                        <TRNAMT>            -36.50
+                        <FITID>00014371
+                        <CHECKNUM>00014371
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        20/02         PAPER C    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140224000000[-3:GMT]
+                        <TRNAMT>             -8,00
+                        <FITID>00375371
+                        <CHECKNUM>00375371
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        24/02         ENLA RE    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140224000000[-3:GMT]
+                        <TRNAMT>            -50.45
+                        <FITID>00583071
+                        <CHECKNUM>00583071
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        24/02         LOJAS R    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140224000000[-3:GMT]
+                        <TRNAMT>            -35,00
+                        <FITID>00094271
+                        <CHECKNUM>00094271
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        24/02 PAK DECORACOES     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140224000000[-3:GMT]
+                        <TRNAMT>            -77.70
+                        <FITID>00174271
+                        <CHECKNUM>00174271
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        24/02 CASA SHOW          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140224000000[-3:GMT]
+                        <TRNAMT>             -7.90
+                        <FITID>00192571
+                        <CHECKNUM>00192571
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        24/02 MELAO MELANCIA     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140224000000[-3:GMT]
+                        <TRNAMT>           -159.80
+                        <FITID>00341071
+                        <CHECKNUM>00341071
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        24/02         NO AR T    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140225000000[-3:GMT]
+                        <TRNAMT>             -7.40
+                        <FITID>00063971
+                        <CHECKNUM>00063971
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        25/02         PRUDENT    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140225000000[-3:GMT]
+                        <TRNAMT>            -26.92
+                        <FITID>00131903
+                        <CHECKNUM>00131903
+                        <PAYEEID>0
+                        <MEMO>PAGAMENTO CONTA GAS EM CANAIS      INTERNET CEG             
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140225000000[-3:GMT]
+                        <TRNAMT>           -782.85
+                        <FITID>00173658
+                        <CHECKNUM>00173658
+                        <PAYEEID>0
+                        <MEMO>PGTO TITULO OUTRO BCO - INTERNET   BANCO GMAC S.A.          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140226000000[-3:GMT]
+                        <TRNAMT>            -22,00
+                        <FITID>00081971
+                        <CHECKNUM>00081971
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        26/02         RESTAUR    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140226000000[-3:GMT]
+                        <TRNAMT>             -6,00
+                        <FITID>00135771
+                        <CHECKNUM>00135771
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        26/02         PRUDENT    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140227000000[-3:GMT]
+                        <TRNAMT>            -31.60
+                        <FITID>00555071
+                        <CHECKNUM>00555071
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        27/02         CORSARI    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140227000000[-3:GMT]
+                        <TRNAMT>            -10.40
+                        <FITID>00053271
+                        <CHECKNUM>00053271
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        27/02 COMPANHIA DO CA    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140227000000[-3:GMT]
+                        <TRNAMT>            -60,00
+                        <FITID>00503959
+                        <CHECKNUM>00503959
+                        <PAYEEID>0
+                        <MEMO>SAQUE ATM INTERAGENCIA                                      
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140227000000[-3:GMT]
+                        <TRNAMT>            -52.15
+                        <FITID>00022471
+                        <CHECKNUM>00022471
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        27/02         DROGARI    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140227000000[-3:GMT]
+                        <TRNAMT>            -18.20
+                        <FITID>00554271
+                        <CHECKNUM>00554271
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        27/02         STARBUC    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140228000000[-3:GMT]
+                        <TRNAMT>            -33.60
+                        <FITID>00221903
+                        <CHECKNUM>00221903
+                        <PAYEEID>0
+                        <MEMO>TARIFA MENSALIDADE PACOTE SERVICOS  JANEIRO / 2014          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140228000000[-3:GMT]
+                        <TRNAMT>            -33,00
+                        <FITID>00251171
+                        <CHECKNUM>00251171
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        28/02         TEMAKI     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140228000000[-3:GMT]
+                        <TRNAMT>            -15.40
+                        <FITID>00355571
+                        <CHECKNUM>00355571
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        28/02         CEA TJS    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140307000000[-3:GMT]
+                        <TRNAMT>          12496.19
+                        <FITID>00251903
+                        <CHECKNUM>00251903
+                        <PAYEEID>0
+                        <MEMO>TED CONTA SALARIO                  FERNANDA WEBLER MAAS     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140307000000[-3:GMT]
+                        <TRNAMT>             -8.10
+                        <FITID>00230871
+                        <CHECKNUM>00230871
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        07/03 MELAO MELANCIA     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140307000000[-3:GMT]
+                        <TRNAMT>           -101,00
+                        <FITID>00512371
+                        <CHECKNUM>00512371
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        07/03 CASA SHOW          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140307000000[-3:GMT]
+                        <TRNAMT>            -17.75
+                        <FITID>00003371
+                        <CHECKNUM>00003371
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        07/03 SUBWAY             
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140307000000[-3:GMT]
+                        <TRNAMT>             -5,00
+                        <FITID>00034571
+                        <CHECKNUM>00034571
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        07/03         CONF RI    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140310000000[-3:GMT]
+                        <TRNAMT>           -104.28
+                        <FITID>00260471
+                        <CHECKNUM>00260471
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        08/03 LA MOLE TIJUCA     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140310000000[-3:GMT]
+                        <TRNAMT>            -33.05
+                        <FITID>00062771
+                        <CHECKNUM>00062771
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        10/03         TOP QUA    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140310000000[-3:GMT]
+                        <TRNAMT>          -5800,00
+                        <FITID>00231625
+                        <CHECKNUM>00231625
+                        <PAYEEID>0
+                        <MEMO>SAQUE POR CAIXA INTERAGENCIA                                
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140311000000[-3:GMT]
+                        <TRNAMT>           -900,00
+                        <FITID>00555491
+                        <CHECKNUM>00555491
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA PARA CONTA POUPANÇA  PARA: 4360.60.005947-6   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140311000000[-3:GMT]
+                        <TRNAMT>           -323.49
+                        <FITID>00341903
+                        <CHECKNUM>00341903
+                        <PAYEEID>0
+                        <MEMO>PAGAMENTO CONTA LUZ EM CANAIS      INTERNET LIGHT SERV ELETR
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140311000000[-3:GMT]
+                        <TRNAMT>          -3000,00
+                        <FITID>00115008
+                        <CHECKNUM>00115008
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA PARA CONTA POUPANÇA  PARA: 4360.60.005949-0   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140311000000[-3:GMT]
+                        <TRNAMT>            -20.90
+                        <FITID>00162071
+                        <CHECKNUM>00162071
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        11/03 CAMARAO E CIA      
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140311000000[-3:GMT]
+                        <TRNAMT>             -6.90
+                        <FITID>00433371
+                        <CHECKNUM>00433371
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        11/03         MANGA R    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140312000000[-3:GMT]
+                        <TRNAMT>          -1245,00
+                        <FITID>00111210
+                        <CHECKNUM>00111210
+                        <PAYEEID>0
+                        <MEMO>EMISSAO DE DOC E VIA BCE           GASPAR LUIZ MARINHO VIANN
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140314000000[-3:GMT]
+                        <TRNAMT>            -27.37
+                        <FITID>00073171
+                        <CHECKNUM>00073171
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        14/03         C.C BAR    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140314000000[-3:GMT]
+                        <TRNAMT>            -50.63
+                        <FITID>00490471
+                        <CHECKNUM>00490471
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        14/03 A SUA FARMACIA     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140314000000[-3:GMT]
+                        <TRNAMT>           -312.39
+                        <FITID>00150433
+                        <CHECKNUM>00150433
+                        <PAYEEID>0
+                        <MEMO>PGTO TITULO OUTRO BCO - INTERNET   SEFAZ/RJ - IPVA          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140314000000[-3:GMT]
+                        <TRNAMT>           -188.41
+                        <FITID>00421903
+                        <CHECKNUM>00421903
+                        <PAYEEID>0
+                        <MEMO>PAGAMENTO CONTA CELULAR EM CANAIS  INTERNET CLARO RJ/ES     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140317000000[-3:GMT]
+                        <TRNAMT>            -11.20
+                        <FITID>00332171
+                        <CHECKNUM>00332171
+                        <PAYEEID>0
+                        <MEMO>DEBITO VISA ELECTRON BRASIL        15/03         RIO CYB    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140317000000[-3:GMT]
+                        <TRNAMT>           -329.88
+                        <FITID>00441903
+                        <CHECKNUM>00441903
+                        <PAYEEID>0
+                        <MEMO>DEBITO AUTOM MENSALIDADE TV A CABO NET SERVICOS             
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20140317000000[-3:GMT]
+                        <TRNAMT>           -100,00
+                        <FITID>00442669
+                        <CHECKNUM>00442669
+                        <PAYEEID>0
+                        <MEMO>TRANSFERENCIA PARA CONTA POUPANÇA  PARA: 4360.60.005947-6   
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>            415.48
+                    <DTASOF>20140319105300[-3:GMT]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

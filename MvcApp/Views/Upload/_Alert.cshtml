@@ -1,0 +1,20 @@
+﻿@if (ViewData["Message"] != null)
+{
+    <div class="alert @(ViewData["Success"] == bool.TrueString ? "alert-success" : "alert-danger")">
+        <p>
+            @Html.Encode(ViewData["Message"])
+        </p>
+    </div>
+}
+
+
+@if (ViewData["DuplicatedMessage"] != null && string.IsNullOrWhiteSpace(ViewData["DuplicatedMessage"].ToString()) == false)
+{
+    <div class="alert alert-warning">
+        <p>
+            <strong>
+                @Html.Encode(ViewData["DuplicatedMessage"])
+            </strong>
+        </p>
+    </div>    
+}

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DatabaseModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="DatabaseModelStoreContainer">
+          <EntitySet Name="OFXTransactions" EntityType="DatabaseModel.Store.OFXTransactions" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="OFXTransactions">
+          <Key>
+            <PropertyRef Name="idTransaction" />
+          </Key>
+          <Property Name="idTransaction" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="type" Type="nvarchar" MaxLength="100" />
+          <Property Name="amount" Type="numeric" Nullable="false" Scale="2" />
+          <Property Name="fitID" Type="nvarchar" MaxLength="100" />
+          <Property Name="name" Type="nvarchar" MaxLength="512" />
+          <Property Name="memo" Type="nvarchar" MaxLength="1024" />
+          <Property Name="checkNum" Type="nvarchar" MaxLength="56" />
+          <Property Name="uniqueId" Type="nvarchar" MaxLength="128" />
+          <Property Name="bankId" Type="nvarchar" MaxLength="100" />
+          <Property Name="accountId" Type="nvarchar" MaxLength="100" />
+          <Property Name="date" Type="datetime" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MvcApp.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DatabaseEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="OFXTransactions" EntityType="MvcApp.Models.OFXTransaction" />
+        </EntityContainer>
+        <EntityType Name="OFXTransaction">
+          <Key>
+            <PropertyRef Name="idTransaction" />
+          </Key>
+          <Property Type="Int64" Name="idTransaction" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="type" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="amount" Precision="18" Scale="2" Nullable="false" />
+          <Property Type="String" Name="fitID" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="name" MaxLength="512" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="memo" MaxLength="1024" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="checkNum" MaxLength="56" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="uniqueId" MaxLength="128" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="bankId" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="accountId" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="date" Precision="3" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+          <EntitySetMapping Name="OFXTransactions">
+            <EntityTypeMapping TypeName="MvcApp.Models.OFXTransaction">
+              <MappingFragment StoreEntitySet="OFXTransactions">
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="accountId" ColumnName="accountId" />
+                <ScalarProperty Name="bankId" ColumnName="bankId" />
+                <ScalarProperty Name="uniqueId" ColumnName="uniqueId" />
+                <ScalarProperty Name="checkNum" ColumnName="checkNum" />
+                <ScalarProperty Name="memo" ColumnName="memo" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="fitID" ColumnName="fitID" />
+                <ScalarProperty Name="amount" ColumnName="amount" />
+                <ScalarProperty Name="type" ColumnName="type" />
+                <ScalarProperty Name="idTransaction" ColumnName="idTransaction" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

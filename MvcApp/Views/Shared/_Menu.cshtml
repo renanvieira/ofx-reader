@@ -1,0 +1,11 @@
+﻿<ul class="nav nav-pills">
+    <li role="presentation" class="@(ViewData["Menu"] == "Home" ? "active" : string.Empty)">
+        <a href="@Url.Action("Index", "Home")">Home</a>
+    </li>
+    <li role="presentation" class="@(ViewData["Menu"] == "Upload" ? "active" : string.Empty)">
+        <a href="@Url.Action("Index", "Upload")">Upload</a>
+    </li>
+    <li role="presentation" class="@(ViewData["Menu"] == "View" ? "active" : string.Empty)">
+        <a href="@Url.Action("View", "Home")">Extrato</a>
+    </li>
+</ul>

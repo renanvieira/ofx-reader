@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MvcApp.Models" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DatabaseEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="OFXTransactions" EntityType="MvcApp.Models.OFXTransaction" />
+  </EntityContainer>
+  <EntityType Name="OFXTransaction">
+    <Key>
+      <PropertyRef Name="idTransaction" />
+    </Key>
+    <Property Type="Int64" Name="idTransaction" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="type" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="amount" Precision="18" Scale="2" Nullable="false" />
+    <Property Type="String" Name="fitID" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="name" MaxLength="512" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="memo" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="checkNum" MaxLength="56" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="uniqueId" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="bankId" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="accountId" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="date" Precision="3" />
+  </EntityType>
+</Schema>

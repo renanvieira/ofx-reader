@@ -1,0 +1,35 @@
+﻿@model List<MvcApp.Models.OFXTransaction>
+@{
+    ViewBag.Title = "Visualização de Extratos";
+}
+
+<h2>Leitura dos dados importados</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th class="text-center">Data</th>
+            <th class="text-center">Banco</th>
+            <th class="text-center">Conta</th>
+            <th class="text-center">Tipo</th>
+            <th class="text-center">Valor</th>
+            <th class="text-center">Nome</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            
+            <tr class="@(item.amount > 0 ? "success" : "danger")">
+                <td>@item.date.GetValueOrDefault().ToString("dd/mm/yyyy")</td>
+                <td>@item.bankId</td>
+                <td>@item.accountId</td>
+                <td>@item.type</td>
+                <td>
+                    @item.amount.ToString("C0", new System.Globalization.CultureInfo("pt-BR"))
+                </td>
+                <td>@item.memo</td>
+            </tr>
+        }
+    </tbody>
+</table>

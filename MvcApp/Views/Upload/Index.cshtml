@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Envio de Arquivo OFX</h2>
+
+<div class="row">
+  @Html.Partial("_Alert", ViewData)
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        @using (Html.BeginForm("File", "Upload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <fieldset>
+                <legend>Arquivo OFX</legend>
+                <input type="file" name="ofx" id="fileOFX" />
+                <br />
+                <input type="submit" value="Enviar" />
+            </fieldset>
+        }
+    </div>
+
+</div>

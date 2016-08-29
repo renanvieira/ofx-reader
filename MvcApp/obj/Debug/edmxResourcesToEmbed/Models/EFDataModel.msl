@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DatabaseModelStoreContainer" CdmEntityContainer="DatabaseEntities">
+    <EntitySetMapping Name="OFXTransactions">
+      <EntityTypeMapping TypeName="MvcApp.Models.OFXTransaction">
+        <MappingFragment StoreEntitySet="OFXTransactions">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="accountId" ColumnName="accountId" />
+          <ScalarProperty Name="bankId" ColumnName="bankId" />
+          <ScalarProperty Name="uniqueId" ColumnName="uniqueId" />
+          <ScalarProperty Name="checkNum" ColumnName="checkNum" />
+          <ScalarProperty Name="memo" ColumnName="memo" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="fitID" ColumnName="fitID" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="type" ColumnName="type" />
+          <ScalarProperty Name="idTransaction" ColumnName="idTransaction" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
